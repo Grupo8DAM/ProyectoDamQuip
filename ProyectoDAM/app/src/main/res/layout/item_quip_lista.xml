@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_lista"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="5dp"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardUseCompatPadding="true"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTitulo"
+            android:visibility="gone"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbItem1"
+                android:layout_weight="0.05"
+                android:visibility="gone"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvItem1"
+                android:layout_weight="0.3"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbItem2"
+                android:layout_weight="0.05"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/tvItem2"
+                android:layout_weight="0.3"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbItem3"
+                android:layout_weight="0.05"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/tvItem3"
+                android:layout_weight="0.3"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <TextView
+            android:text="..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvItem4"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
