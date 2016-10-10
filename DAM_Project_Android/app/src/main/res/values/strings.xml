@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quip</string>
+    // Strings botones
+    <string name="ok">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    // Strings dialogo borrar
+    <string name="mensaje_confirm_borrar">¿Seguro que quieres borrar esta nota?</string>
+    <string name="etiqueta_dialogo_borrar">Eliminar: </string>
+    // nota
+    <string name="nota">Nota</string>
+    <string name="titulo">Titulo</string>
+</resources>
